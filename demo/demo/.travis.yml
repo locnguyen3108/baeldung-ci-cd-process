@@ -1,6 +1,6 @@
 language: java
 jdk:
-  - openjdk18\
+  - openjdk17
 before_install:
   - echo "alo123456" | docker login -u "loclieulinh318" --password-stdin
   - docker pull mediasol/openjdk17-slim-jprofiler
